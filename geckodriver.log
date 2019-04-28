@@ -1,0 +1,42 @@
+1556473265428	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gt/zx09tq8j3lx7f92p0pvt794r0000gn/T/rust_mozprofile.DXmYZZeBGSVu"
+1556473272183	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556473272184	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556473272184	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556473274177	Marionette	INFO	Listening on port 64612
+1556473281745	Marionette	INFO	Stopped listening on port 64612
+1556473317087	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gt/zx09tq8j3lx7f92p0pvt794r0000gn/T/rust_mozprofile.maf473JYsdgz"
+1556473317828	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556473317829	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556473317829	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556473319483	Marionette	INFO	Listening on port 64639
+1556473319530	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://uat.ormuco.com/static/gen/shared_svc.min.js?68b101df, line 13: unreachable code after return statement
+JavaScript warning: https://uat.ormuco.com/static/gen/all_login.min.js?db122a92, line 13: unreachable code after return statement
+1556473326630	Marionette	INFO	Stopped listening on port 64639
+1556473484461	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gt/zx09tq8j3lx7f92p0pvt794r0000gn/T/rust_mozprofile.ZKjUWLsh6WkY"
+1556473485343	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556473485344	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556473485344	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556473487248	Marionette	INFO	Listening on port 64857
+1556473487336	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://uat.ormuco.com/static/gen/shared_svc.min.js?68b101df, line 13: unreachable code after return statement
+JavaScript warning: https://uat.ormuco.com/static/gen/all_login.min.js?db122a92, line 13: unreachable code after return statement
+1556473494213	Marionette	INFO	Stopped listening on port 64857
+1556481112166	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gt/zx09tq8j3lx7f92p0pvt794r0000gn/T/rust_mozprofile.CfjKRZVrsYtj"
+1556481113144	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556481113145	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556481113145	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556481115214	Marionette	INFO	Listening on port 49867
+1556481115278	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://uat.ormuco.com/static/gen/shared_svc.min.js?68b101df, line 13: unreachable code after return statement
+JavaScript warning: https://uat.ormuco.com/static/gen/all_login.min.js?db122a92, line 13: unreachable code after return statement
+1556481122404	Marionette	INFO	Stopped listening on port 49867
+1556481323440	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "-foreground" "-no-remote" "-profile" "/var/folders/gt/zx09tq8j3lx7f92p0pvt794r0000gn/T/rust_mozprofile.qtxdLV3LE658"
+1556481324476	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556481324476	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556481324476	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556481326843	Marionette	INFO	Listening on port 50295
+1556481326903	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://uat.ormuco.com/static/gen/shared_svc.min.js?68b101df, line 13: unreachable code after return statement
+JavaScript warning: https://uat.ormuco.com/static/gen/all_login.min.js?db122a92, line 13: unreachable code after return statement
+1556481334010	Marionette	INFO	Stopped listening on port 50295

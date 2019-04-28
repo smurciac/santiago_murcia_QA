@@ -34,6 +34,7 @@ class GivenHandler():
         resize = context.config.userdata.get("resize")
         webdriver_control.select_webdriver(device)
         webdriver_control.open_url(url)
-        if resize == 'Yes':
-            constants.DRIVER.maximize_window()
-            time.sleep(1)
+        if device.lower() != "android" and device.lower() != "iphone":
+            if resize == 'Yes':
+                constants.DRIVER.maximize_window()
+        time.sleep(1)

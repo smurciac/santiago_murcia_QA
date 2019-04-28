@@ -9,5 +9,9 @@ Feature: As a user I want to validate that you get the proper invalid user error
           Then I expect to see the text "<text>" on "<error_element>"
 
     Examples:
-    | url                         | device | email                   | password | element | text                               | error_element |
-    |https://uat.ormuco.com/login | Chrome | cadavidmurcia@gmail.com | pass1234 | SIGNIN  | The user or password is incorrect. | WARNING       |
+    | url                         | device  | email                   | password | element | text                               | error_element |
+    |https://uat.ormuco.com/login | Chrome  | cadavidmurcia@gmail.com | pass1234 | SIGNIN  | The user or password is incorrect. | WARNING       |
+    |https://uat.ormuco.com/login | Firefox | cadavidmurcia@gmail.com | pass1234 | SIGNIN  | The user or password is incorrect. | WARNING       |
+    |https://uat.ormuco.com/login | Safari  | cadavidmurcia@gmail.com | pass1234 | SIGNIN  | The user or password is incorrect. | WARNING       |
+    |https://uat.ormuco.com/login | iPhone  | cadavidmurcia@gmail.com | pass1234 | SIGNIN  | The user or password is incorrect. | WARNING       |
+    |https://uat.ormuco.com/login | Android | cadavidmurcia@gmail.com | pass1234 | SIGNIN  | The user or password is incorrect. | WARNING       |

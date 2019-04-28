@@ -28,8 +28,8 @@ ANDROID_DESIRED_CAPS = {
     "platformName": "Android",
     "platformVersion": "7.1.1",
     "automationName": "uiautomator2",
-    "deviceName": "Nexus_6P",
-    "avd": "Nexus_6P",
+    "deviceName": "Nexus_6",
+    "avd": "Nexus_6",
     # "app": "",
     "browserName": "Chrome",
     "chromedriverExecutableDir": APPIUM_DRIVER
