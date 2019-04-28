@@ -121,9 +121,9 @@ source /put/path/to/virtualenvwrapper.sh
 
 ## Repo
 
-**Link to Repo:** https://github.com/smurciac/Selenium-Appium-Python
+**Link to Repo:** https://github.com/smurciac/santiago_murcia_QA
 
-1. `git clone git@github.com:smurciac/Selenium-Appium-Python.git`
+1. `git clone https://github.com/smurciac/santiago_murcia_QA.git`
 
 ## Install requirements.txt
 
@@ -152,6 +152,7 @@ Once all the requirements are installed, go to the root's project and simply run
         /src
             /control
                 __init__.py
+                api_control.py
                 helper_control.py
                 webdriver_control.py
             /pages
@@ -160,7 +161,7 @@ Once all the requirements are installed, go to the root's project and simply run
             __init__.py
         /tests
             /features
-                tutorial.feature
+                sign_in.feature
             /steps
                 given_handler.py
                 then_handler.py
