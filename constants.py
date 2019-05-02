@@ -12,6 +12,7 @@ DEVICE = None
 DRIVER = None
 PAGE = None
 URL = ""
+WAIT_TIME = 1
 
 IPHONE_DESIRED_CAPS = {
     "platformName": "iOS",

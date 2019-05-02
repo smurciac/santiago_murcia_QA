@@ -2,16 +2,16 @@
 Feature: As a user I want to validate that you get the proper invalid user error message
 
     Scenario Outline: Validate if the user gets the proper invalid error message using an invalid username/password
-        Given I open the website "<url>" on "<device>"
-          When I enter the email "<email>"
-            And I enter the password "<password>"
-            And I click the "<element>"
-          Then I expect to see the text "<text>" on "<error_element>"
+        Given I open the website "https://uat.ormuco.com/login" on "<device>"
+          When I enter the email "cadavidmurcia@gmail.com"
+            And I enter the password "pass1234"
+            And I click the element "SIGNIN"
+          Then I expect to see the text "The user or password is incorrect." on element "WARNING"
 
     Examples:
-    | url                         | device  | email                   | password | element | text                               | error_element |
-    |https://uat.ormuco.com/login | Chrome  | cadavidmurcia@gmail.com | pass1234 | SIGNIN  | The user or password is incorrect. | WARNING       |
-    |https://uat.ormuco.com/login | Firefox | cadavidmurcia@gmail.com | pass1234 | SIGNIN  | The user or password is incorrect. | WARNING       |
-    |https://uat.ormuco.com/login | Safari  | cadavidmurcia@gmail.com | pass1234 | SIGNIN  | The user or password is incorrect. | WARNING       |
-    |https://uat.ormuco.com/login | iPhone  | cadavidmurcia@gmail.com | pass1234 | SIGNIN  | The user or password is incorrect. | WARNING       |
-    |https://uat.ormuco.com/login | Android | cadavidmurcia@gmail.com | pass1234 | SIGNIN  | The user or password is incorrect. | WARNING       |
+    | device  |
+    | Chrome  |
+    | Firefox |
+    | Safari  |
+    | iPhone  |
+    | Android |

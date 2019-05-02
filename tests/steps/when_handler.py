@@ -32,10 +32,9 @@ class WhenHandler():
             <size>: the given size to set the device
         """
         webdriver_control.set_windows_size(device, size)
-        time.sleep(1)
 
-    @when('I click the "{element}"')
-    def i_click_element(context, element):
+    @when('I click the element "{element}"')
+    def i_click_the_element(context, element):
         """
         :params:
             <context>: the context of the feature
@@ -53,7 +52,6 @@ class WhenHandler():
         """
         element = constants.PAGE.get_element('USERNAME')
         element.send_keys(email)
-        time.sleep(1)
 
     @when('I enter the password "{password}"')
     def i_enter_the_password(context, password):
@@ -64,4 +62,3 @@ class WhenHandler():
         """
         element = constants.PAGE.get_element('PASSWORD')
         element.send_keys(password)
-        time.sleep(1)

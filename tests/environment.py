@@ -5,6 +5,7 @@ This file will contain all the methods to control the features
 
 import allure
 import constants
+import time
 
 from src.control import helper_control
 
@@ -70,6 +71,7 @@ def after_step(context, step):
     """
     All actions performed after a step
     """
+    time.sleep(constants.WAIT_TIME)
     if step.status == "failed":
         screen_name = helper_control.urlify(helper_control.datetime_now('screen')) + '.png'
         allure.attach(constants.DRIVER.get_screenshot_as_png(), name=screen_name,

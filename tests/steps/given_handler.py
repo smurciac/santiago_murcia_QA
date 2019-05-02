@@ -37,4 +37,3 @@ class GivenHandler():
         if device.lower() != "android" and device.lower() != "iphone":
             if resize == 'Yes':
                 constants.DRIVER.maximize_window()
-        time.sleep(1)

@@ -15,7 +15,5 @@ def get_data(api):
     """
     URL = 'http://some/api/{}'.format(api)
     PARAMS = {}
-
-    r = requests.get(url=URL, params=PARAMS)
-    data = r.json()
-    return data['data']
+    response = requests.get(url=URL, params=PARAMS)
+    return response.json()

@@ -36,8 +36,8 @@ class ThenHandler():
         else:
             assert True
 
-    @then('I expect to see the text "{text}" on "{element}"')
-    def i_expect_to_see_the_text(context, text, element):
+    @then('I expect to see the text "{text}" on element "{element}"')
+    def i_expect_to_see_the_text_on_element(context, text, element):
         """
         :params:
             <context>: the context of the feature
